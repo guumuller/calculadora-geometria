@@ -82,7 +82,7 @@ opcao = scanner.nextInt();
         System.out.print("Digite a altura: ");
         double altura = scanner.nextDouble();
         double volume = ab * altura ;
-        System.out.println("O Volume da esfera é: " + volume);
+        System.out.println("O Volume do cilindro é: " + volume);
     }
 
     public static void calcularVolumePiramide (Scanner scanner) {
@@ -91,14 +91,14 @@ opcao = scanner.nextInt();
         System.out.print("Digite a altura: ");
         double altura = scanner.nextDouble();
         double volume = (ab * altura) / 3 ;
-        System.out.println("O volume da esfera é: " + volume);
+        System.out.println("O volume da piramide é: " + volume);
     }
 
     public static void calcularVolumeQuadrado (Scanner scanner) {
         System.out.print("Digite o lado: ");
         double lado = scanner.nextDouble();
         double volume = lado * lado * lado ;
-        System.out.println("O volume da esfera é: " + volume);
+        System.out.println("O volume do quadrado é: " + volume);
     }
 
     public static void calcularAreaEsfera(Scanner scanner) {
@@ -139,12 +139,12 @@ opcao = scanner.nextInt();
         System.out.print("Digite a lateral da piramide: ");
         double al = scanner.nextDouble();
         double area = (al * 4) + ab;
-        System.out.println("A área total do triângulo é: " + area);
+        System.out.println("A área total da piramide é: " + area);
     }
 
     public static void calcularAreaQuadrado(Scanner scanner) {
         System.out.print("Digite o lado do quadrado: ");
-        double1 lado = scanner.nextDouble();
+        double lado = scanner.nextDouble();
         double area = lado * lado;
         System.out.println("A área do quadrado é: " + area);
     }
